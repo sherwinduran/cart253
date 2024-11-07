@@ -55,10 +55,10 @@ let jumpscareImage;
 let gameBackground;
 
 function preload() {
-    titleFont = loadFont('/assets/fonts/Stardew_Valley.ttf');
-    titleBackground = loadImage('/assets/images/titleBackground.jpg');
-    jumpscareImage = loadImage('/assets/images/bee.jpg');
-    gameBackground = loadImage('/assets/images/blueBackground.jpg');
+    titleFont = loadFont('assets/fonts/Stardew_Valley.ttf');
+    titleBackground = loadImage('assets/images/titleBackground.jpg');
+    jumpscareImage = loadImage('assets/images/bee.jpg');
+    gameBackground = loadImage('assets/images/blueBackground.jpg');
 }
 
 // The flies
