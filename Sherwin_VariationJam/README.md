@@ -1,6 +1,8 @@
 # Pellet Dash
 Sherwin Duran
 
+# Link to my game: https://sherwinduran.github.io/cart253/Sherwin_VariationJam/
+
 ## Description
 This is a game about collecting 10 pellets. It has three game modes:
 - The Rush: A ghost pursues the player while they attempt to collect all 10 pellets.
