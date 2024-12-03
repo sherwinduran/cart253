@@ -3,13 +3,19 @@
  * Sherwin Duran
  * 
  * This is a game about collecting 10 pellets. It has three game modes:
-- The Rush: A ghost pursues the player while they attempt to collect all 10 pellets.
-- The Double: Similar to The Rush, but with two ghosts chasing the player.
-- The Hunt: A straightforward game mode where the pellets randomly spawn, and the player collects them without any ghosts.
+ * - The Rush: A ghost pursues the player while they attempt to collect all 10 pellets.
+ * - The Double: Similar to The Rush, but with two ghosts chasing the player.
+ * - The Hunt: A straightforward game mode where the pellets randomly spawn, and the player collects them without any ghosts.
+ *
+ *
+ * On the title page, you can select your preferred game mode.
+ * Once you complete the game, a "Congratulations" popup will appear.
+ * You can press any key to restart the game; however, this will not return
+ * you to the title page. To go back, you will need to refresh the game.
 
-I was inspired to create this game because of Pac-Man. I’ve always enjoyed the challenge of
-avoiding ghosts while collecting items, and I wanted to bring that fun experience into a new game
-with different modes and challenges.
+ * I was inspired to create this game because of Pac-Man. I’ve always enjoyed the challenge of
+ * avoiding ghosts while collecting items, and I wanted to bring that fun experience into a new game
+ * with different modes and challenges.
  * 
  * Instructions:
  * - Move with the arrow keys
@@ -21,7 +27,6 @@ with different modes and challenges.
  */
 
 // Declaring the variables
-
 let player;
 let ghost1, ghost2; // Two ghosts for the "Double" mode
 let pellets = [];
@@ -41,7 +46,6 @@ let playerImage;
 let ghostImage;
 
 // My assets
-
 function preload() {
     titleFont = loadFont('assets/fonts/Stardew_Valley.ttf');
     playerImage = loadImage('assets/images/dariusFace.png');
